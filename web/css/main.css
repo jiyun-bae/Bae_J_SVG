@@ -1,0 +1,182 @@
+img 
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	height: 170px;
+}
+
+body
+{
+  font-family:'Indie Flower', cursive;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+h3
+{
+	font-size: 20px;
+	color: #d16c6a;
+}
+
+main
+{
+	text-align: center;
+	width: 980px;
+	margin: 0 auto;
+}
+
+figure {
+	width: 170px;
+	height: 170px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+
+.column::after {
+	content: '';
+	clear: both;
+}
+
+.column div {
+	position: relative;
+	margin: 0 0 0 25px;
+	padding: 0;
+    display: inline;
+    justify-content: space-between;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.monospace {
+  font-family: 'Indie Flower', cursive;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.mainNav
+{
+	width: 500px;
+	height: 25px;
+	margin-top: 45px;
+	margin-left: auto;
+	text-align: center;
+}
+
+.mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.mainNav ul li
+{
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.mainNav ul li a
+{
+	color: #323001;
+	background-color: #fff;
+}
+
+.mainNav ul li a:hover {
+	padding: 5px;
+	background-color: #d16c6a
+}
+
+.selected
+{
+  padding: 5px 0px 5px 0px;
+  background-color: #d16c6a;
+}
+
+.hover1 figure {
+	background: #1abc9c;
+}
+
+.hover1 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover1 figure:hover img {
+	opacity: .5;
+}
+
+.mainFooter 
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  background-color: #fbead3;
+  justify-content: flex-start;
+  height: 100px;	
+}
+
+.footerNav 
+{
+  width: 380px;
+  height: 25px;
+  margin-left: 50px;
+}
+
+.footerNav ul 
+{
+  padding: 0;
+  list-style-type: none;
+  width: 500px;
+  margin-left: 0;
+}
+
+.footerNav ul li 
+{ 
+  cursor: pointer;
+  display: inline;
+  margin-right: 55px;
+  font-size: 17px;
+}
+
+.footerNav ul li a 
+{
+  color: #d16c6a;
+}
+
+.footerNav ul li a:hover 
+{
+  color: #E5B0A4;
+}
